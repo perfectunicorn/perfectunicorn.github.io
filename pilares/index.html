@@ -1,130 +1,137 @@
 <!DOCTYPE html>
 <html>
     <head>
-        
-        <title>Code needs girls</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>code needs girls</title>
+        <script src="https://kit.fontawesome.com/89925553aa.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="css/style.css">
+        <link href="css/fontawesome.css" rel="stylesheet">
+        <link href="css/brands.css" rel="stylesheet">
+        <link href="css/solid.css" rel="stylesheet">
     </head>
     <body>
-        
+
         <header>
-            <div>
-                <figure>
-                  <img> logo
-                </figure>
-                <nav>
-                  <ol>
-                    <li>
-                      <a href="#">Misión</a>
-                    </li>
-                    <li>
-                        <a href="#">Servicios</a>
-                    </li>
-                    <li>
-                      <a href="#">Contacto</a>
-                    </li>
-                  </ol>
-                </nav>
-            </div>
-            <section class="principal">
-                <div class='container'>
-                    <div class='col-left'>
-                        <div class='text'>
-                        <h1>Queremos que consideres a la <strong>ciencia</strong> y la <strong>tecnología</strong> como tu <strong>pasión</strong></h1>
+            <nav id="nav" class="nav">
+                <div class="contenedor-nav">
+                    <div class="logo">
+                        <img src="img/logo.png" alt="logo">
+                    </div>
+                    <div class="enlaces" id="enlaces">
+                        <a href="#mision" >Misión</a>
+                        <a href="#filosofia" >Filosofía</a>
+                        <a href="#programas" >Programas</a>
+                        <a href="#contacto" >Contacto</a>
+                    </div>
+                    <div class="icono" id="open">
+                        <span>&#9776;</span>
                     </div>
                 </div>
-                <div class='col-right'>
-                    <img class="medium" src="img/3.jpg">
-                </div>
-                </div> 
-        </section>
+            </nav>
+            <div class="textos">
+                <h1>code needs girls</h1>
+                <h2>Cerremos juntas la brecha de género en STEM</h2>
+            </div>
         </header>
 
-        <section class='mision'>
-            <div class='container'>
-                <div class='col-center'>
-                    <div class="text">
-                        <h2>Nuestra misión</h2>
-                        <p>Cerrar la brecha de género en las áreas de ciencia y tecnología</p>
-                        <a>
-                            Conocer más
-                        </a>
+        <section class='mision' id='mision'>
+                    <div class='contenedor'>
+                        <h3>Nuestra misión</h3>
+                        <p>Mejorar la realidad de las mujeres en latinoamérica a través de su participación en el desarrollo de ciencia y tecnología.</p>
+                    <button class="button" onclick="location.href='#contacto'">Conocer más</button>
+                    </div>
+        </section>
+
+        <section class="filosofia" id="filosofia">
+            <div class="contenedor">
+                <h3>Filosofía</h3>
+                <p class="after"></p>
+                <div class="ideales">
+                    <div class="caja-ideal">
+                        <i class="fas fa-fist-raised"></i>
+                        <h4>El conocimiento es poder</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                    <div class="caja-ideal">
+                        <i class="fas fa-user-astronaut"></i>
+                        <h4>STEM para todas</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                    <div class="caja-ideal">
+                        <i class="fas fa-rainbow"></i>
+                        <h4>Si lo puedes imaginar, lo puedes crear</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class='filosofia'>
-            <div class='container'>
-                <div class='col-left'>
-                    <div class="text">
-                        <h2>Nuestra filosofía</h2>
-                        <p>Compartir el conocimiento con cualquier niña y mujer que tenga interés en la ciencia y tecnología</p>    
+        <section class='programas' id='programas'>
+            <div class='contenedor'>
+            <h3>Programas</h3>
+            <p class="after">Seguro encontrarás un tema interesante por aprender</p>
+            <div class="card">
+                <div class="content-card">
+                    <div class="programa">
+                        <img src="img/coding.jpeg" alt="Desarrollo de aplicaciones">
+                    </div>
+                    <div class="texto">            
+                        <p>Desarrollo de aplicaciones</p>
                     </div>
                 </div>
-                <div class='col-right'>
-                    <img class='medium' src="img/1.jpg">
+                <div class="content-card">
+                    <div class="programa">
+                        <img src="img/AR.jpg" alt="Realidad aumentada">
+                    </div>
+                    <div class="texto">
+                        <p>Realidad aumentada</p>
+                    </div>
+                </div>
+                <div class="content-card">
+                    <div class="programa">
+                        <img src="img/robotic.jpg" alt="Robótica">
+                    </div>
+                    <div class="texto">
+                        <p>Robótica</p>
+                    </div>
                 </div>
             </div>
+        </div>
         </section>
 
-        <section class='servicios'>
-            <div class='container'>
-                <div class='col-center'>
-                    <p>
-                        <li><h3>Programa de mentorías</h3></li>
-                        <li><h3>Grupos de estudio</h3></li>
-                        <li><h3>Desarrollo de proyectos</h3></li>
-                    </p>
-                </div>
-    
-            </div>
-        </section>
-       
-        <section class='programas'>
-            <div class='container'>
-                <div class='col-center'>
-                    <h2>Programas</h2> <!-- agregar div-->
-                    <article>
-                        <h3>
-                            Desarrollo de aplicaciones
-                        </h3>
-                    </article>
-
-                    <article>
-                        <h3>
-                            Inteligencia artificial
-                        </h3>
-                    </article>
-
-                    <article>
-                        <h3>
-                            Robótica
-                        </h3>
-                    </article>
-                   
-                </div>
-            </div>
-        </section>
-
-        <section class='contacto'>
-            <div class='container'>
+        <section class='contacto' id='contacto'>
+            <div class='contenedor'>
                 <div class='col-left'>
-                    <img class='medium' src="img/7.png">
-                </div>
-                <div class='col-right'>
-                    <div class='contact'>
+                    <div class='textos'>
                         <h2>¿Quieres formar parte?</h2>
-                        <form action="#">
-                            <input type="text" placeholder="Déjanos tu correo electrónico">
-                            <input type="submit"Enviar>
-                        </form>
+                        <p>Déjanos tu correo electrónico para compartirte más información.</p>
+                            <form action="#" id="form_box">
+                                <input type="text" placeholder="Déjanos tu correo electrónico">
+                                <input class="button" type="submit" value="Enviar">
+                            </form>
+                    </div>
+                </div>
+                <div class='col-right'>
+                    <div class='textos'>
+                        <div class="iconos">
+                            <div class="text">
+                                        <a href="https://www.facebook.com/CodeNeedsGirlsProject" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                                        <a href="https://www.pinterest.com.mx/nmoreira002/code-needs-girls/" target="_blank"><i class="fab fa-pinterest-square"></i></i></a>
+                                        <a href="https://github.com/perfectunicorn" target="_blank"><i class="fab fa-github-square"></i></i></a>   
+                            </div>
+                        </div>
+                      
                     </div>
                 </div>
             </div>
             
         </section>
         
-        <footer>footer</footer>
+        <footer>
+            <p>Desarrollado por Nubia Moreira.</p>
+        </div>
+        </footer>
     </body>
 </html>
